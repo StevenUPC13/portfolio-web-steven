@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.vite/
+private/
+*.log
+.env
+.env.*
+!.env.example
+
+# Local source documents and unprotected originals
+Certificados/
+Certificados.zip
+Brief_Portafolio_Web_Steven_Codex.docx
+Brief_Portafolio_Web_Steven_Codex.txt
+Marquez Rios Steven J. - Curriculum Vitae.pdf
+
+# Do not publish unwatermarked certificate PDFs.
+# Add protected/watermarked versions here before deployment if you want them public.
+public/certificates/pdf/
