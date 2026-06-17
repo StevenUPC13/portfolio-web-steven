@@ -7,8 +7,7 @@ Este proyecto ignora archivos sensibles o privados:
 - `.env.local` y cualquier `.env.*`
 - `Certificados/`
 - `Certificados.zip`
-- PDFs originales de certificados en `public/certificates/pdf/`
-- documentos de brief y CV fuente en la raíz
+- documentos de brief y CV fuente en la raiz
 - `private/`, `node_modules/` y `dist/`
 
 ## Formulario de contacto
@@ -23,18 +22,20 @@ No subas `.env.local`. En Vercel, Netlify u otro hosting, configura esa variable
 
 ## Certificados
 
-Los certificados visibles en internet pueden descargarse o capturarse aunque no exista un botón de descarga. Antes de publicar el sitio:
+Los certificados visibles en internet pueden descargarse o capturarse aunque no exista un boton de descarga. Antes de publicar el sitio:
 
 - usa versiones con marca de agua;
-- oculta códigos, QR o IDs sensibles si lo consideras necesario;
-- no publiques originales sin protección;
-- mantén el repositorio privado hasta terminar esa revisión.
+- oculta codigos, QR o IDs sensibles si lo consideras necesario;
+- no publiques originales sin proteccion;
+- manten el repositorio privado hasta terminar esa revision.
 
-## Recomendación para GitHub
+La carpeta `Certificados/` queda como fuente local privada. Solo publica en `public/certificates/pdf/` los PDFs ya revisados y protegidos con marca de agua.
 
-Crear el repositorio como **private** al inicio. Puedes hacerlo público después de:
+## Recomendacion para GitHub
+
+Crear el repositorio como **private** al inicio. Puedes hacerlo publico despues de:
 
 - revisar CV y datos personales;
 - reemplazar certificados por versiones con marca de agua;
-- confirmar que `.env.local` no está en Git;
+- confirmar que `.env.local` no esta en Git;
 - probar el formulario con variables de entorno del hosting.

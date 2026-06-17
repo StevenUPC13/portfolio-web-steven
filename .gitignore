@@ -13,7 +13,3 @@ Certificados.zip
 Brief_Portafolio_Web_Steven_Codex.docx
 Brief_Portafolio_Web_Steven_Codex.txt
 Marquez Rios Steven J. - Curriculum Vitae.pdf
-
-# Do not publish unwatermarked certificate PDFs.
-# Add protected/watermarked versions here before deployment if you want them public.
-public/certificates/pdf/
