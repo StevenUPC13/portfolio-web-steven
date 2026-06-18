@@ -15,11 +15,8 @@
   <circle cx="120" cy="680" r="260" fill="#39FF14" opacity="0.11"/>
   <path d="M0 120 H1200 M0 240 H1200 M0 360 H1200 M0 480 H1200 M0 600 H1200 M160 0 V750 M320 0 V750 M480 0 V750 M640 0 V750 M800 0 V750 M960 0 V750" stroke="#00FF66" opacity="0.08"/>
   <rect x="80" y="90" width="1040" height="570" rx="28" fill="rgba(0,0,0,0.50)" stroke="#00FF66" stroke-opacity="0.28"/>
-  <text x="120" y="178" fill="#00FF66" font-family="JetBrains Mono, Consolas, monospace" font-size="28">Cotizador web</text>
-  <text x="120" y="300" fill="#F3F4F6" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">
-    <tspan x="120" dy="0">Simulador web de cotizacion</tspan>
-    <tspan x="120" dy="64">de inmuebles</tspan>
-  </text>
-  <text x="120" y="445" fill="#A7B0BE" font-family="JetBrains Mono, Consolas, monospace" font-size="28">HTML · JavaScript · UX/UI · Logica financiera</text>
-  <text x="120" y="575" fill="url(#g)" font-family="JetBrains Mono, Consolas, monospace" font-size="68" font-weight="800">&lt; Steven /&gt;</text>
+  <text x="120" y="178" fill="#00FF66" font-family="JetBrains Mono, Consolas, monospace" font-size="28">Web ambiental</text>
+  <text x="120" y="320" fill="#F3F4F6" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">Ecoworms</text>
+  <text x="120" y="415" fill="#A7B0BE" font-family="JetBrains Mono, Consolas, monospace" font-size="28">HTML · CSS · JavaScript · Responsive</text>
+  <text x="120" y="555" fill="url(#g)" font-family="JetBrains Mono, Consolas, monospace" font-size="68" font-weight="800">&lt; Steven /&gt;</text>
 </svg>

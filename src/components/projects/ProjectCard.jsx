@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import { FiExternalLink, FiGithub, FiLock } from 'react-icons/fi';
+import { FiExternalLink, FiGithub, FiInfo, FiLock } from 'react-icons/fi';
 
-export default function ProjectCard({ project, index }) {
+export default function ProjectCard({ project, index, onDetails }) {
   const hasGithub = Boolean(project.github);
   const hasDemo = Boolean(project.demo);
 
@@ -36,9 +36,9 @@ export default function ProjectCard({ project, index }) {
           ))}
         </div>
         <div className="mt-5 flex flex-wrap gap-2">
-          <button type="button" className="btn-mini">
-            <FiExternalLink />
-            Detalles
+          <button type="button" className="btn-mini" onClick={() => onDetails(project)}>
+            <FiInfo />
+            Detalle
           </button>
           {hasGithub ? (
             <a className="btn-mini" href={project.github} target="_blank" rel="noreferrer">
@@ -48,7 +48,7 @@ export default function ProjectCard({ project, index }) {
           ) : (
             <span className="btn-mini-disabled">
               <FiLock />
-              GitHub coming soon
+              GitHub pendiente
             </span>
           )}
           {hasDemo ? (
@@ -59,7 +59,7 @@ export default function ProjectCard({ project, index }) {
           ) : (
             <span className="btn-mini-disabled">
               <FiLock />
-              Demo coming soon
+              Demo pendiente
             </span>
           )}
         </div>
