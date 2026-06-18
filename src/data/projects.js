@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: 'Portafolio Web Personal',
+    description:
+      'Portafolio profesional desarrollado con React, Vite y Tailwind CSS para presentar perfil, proyectos, certificados, CV y contacto.',
+    details:
+      'Proyecto personal enfocado en mostrar mi perfil profesional de forma moderna, responsive y segura. Incluye secciones de experiencia, habilidades, proyectos, certificados protegidos, CV descargable y formulario conectado con Formspree.',
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
+    status: 'Portfolio developer',
+    role: 'Diseno, frontend y deploy',
+    github: 'https://github.com/StevenUPC13/portfolio-web-steven.git',
+    demo: 'https://portfolio-web-steven.vercel.app/',
+    image: '/projects/portfolio-web-steven.svg',
+    highlights: [
+      'Interfaz responsive con estilo developer en negro y verde neon.',
+      'Certificados en PDF con visualizacion protegida y CV descargable.',
+      'Formulario funcional con Formspree y despliegue en Vercel.',
+    ],
+  },
+  {
     title: 'Sistema de Inventario - Muebleria Steven',
     description:
       'Sistema web para administrar productos, categorias, proveedores, compras, ventas, stock minimo, autenticacion y reportes.',
