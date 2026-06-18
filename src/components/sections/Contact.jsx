@@ -59,7 +59,7 @@ export default function Contact() {
     } catch {
       setStatus({
         type: 'error',
-        message: 'No se pudo enviar el mensaje. Intenta nuevamente o escríbeme por WhatsApp/correo.',
+        message: 'No se pudo enviar el mensaje. Intenta nuevamente o escribeme por WhatsApp/correo.',
       });
     } finally {
       setIsSending(false);
@@ -81,7 +81,7 @@ export default function Contact() {
           <a className="contact-card" href={socialLinks.phoneHref}>
             <FiPhone />
             <span>
-              <small>Teléfono</small>
+              <small>Telefono</small>
               {socialLinks.phone}
             </span>
           </a>
@@ -96,13 +96,13 @@ export default function Contact() {
             <FiLinkedin />
             <span>
               <small>LinkedIn</small>
-              linkedin.com/in/steven-jeampierre-márquez-rios-349069381
+              linkedin.com/in/steven-jeampierre-marquez-rios-349069381
             </span>
           </a>
           <div className="contact-card">
             <FiMapPin />
             <span>
-              <small>Ubicación</small>
+              <small>Ubicacion</small>
               {socialLinks.location}
             </span>
           </div>
@@ -126,7 +126,7 @@ export default function Contact() {
           <textarea className="form-input min-h-40 resize-y" name="message" placeholder="Mensaje" required />
           <button type="submit" className="btn-primary disabled:cursor-not-allowed disabled:opacity-60" disabled={isSending}>
             <FiSend />
-            {isSending ? 'Enviando...' : 'Send Message'}
+            {isSending ? 'Enviando...' : 'Enviar mensaje'}
           </button>
           {status.message && (
             <p className={`text-sm ${status.type === 'error' ? 'text-red-400' : 'text-neon-cyan'}`}>
