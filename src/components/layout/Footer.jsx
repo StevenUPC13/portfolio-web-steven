@@ -13,9 +13,16 @@ export default function Footer() {
           <a className="footer-icon" href={socialLinks.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <FiLinkedin />
           </a>
-          <span className="footer-icon cursor-not-allowed opacity-45" title="GitHub pendiente">
+          <a
+            className="footer-icon"
+            href={socialLinks.github}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+            title="GitHub"
+          >
             <FiGithub />
-          </span>
+          </a>
           <a className="footer-icon" href={`mailto:${socialLinks.email}`} aria-label="Email">
             <FiMail />
           </a>
